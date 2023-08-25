@@ -63,6 +63,7 @@
 .support {
   border-top: 1px solid #383a5c;
   border-bottom: 1px solid #383a5c;
+  padding: 12px 0;
 }
 .navActive {
   font-weight: 700;

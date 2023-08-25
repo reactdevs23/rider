@@ -1,10 +1,13 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import { BiScan } from "react-icons/bi";
 import { AiOutlineInfoCircle } from "react-icons/ai";
-import styles from "./SignIn.module.css";
+
 import { logo, xidarWallet, zuesWallet } from "../../images/image";
+import styles from "./SignIn.module.css";
 
 const Login = () => {
+  const navigate = useNavigate();
   return (
     <section className={styles.mainWrapper}>
       <img src={logo} alt="#" className={styles.logo} />
@@ -14,19 +17,28 @@ const Login = () => {
       <div className={styles.container}>
         <div className={styles.wrapper}>
           <div className={styles.walletContainer}>
-            <button className={[styles.button, styles.connectWallet].join(" ")}>
+            <button
+              onClick={() => navigate("/")}
+              className={[styles.button, styles.connectWallet].join(" ")}
+            >
               {" "}
               <img src={zuesWallet} alt="#" className={styles.icon} /> Log in
               with Zues Wallet
             </button>{" "}
-            <button className={[styles.button, styles.connectWallet].join(" ")}>
+            <button
+              onClick={() => navigate("/")}
+              className={[styles.button, styles.connectWallet].join(" ")}
+            >
               {" "}
               <img src={xidarWallet} alt="#" className={styles.icon} /> Log in
               with Xidar Wallet
             </button>
           </div>
           <div className={styles.scanAndInfo}>
-            <button className={[styles.button, styles.scanQrCode].join(" ")}>
+            <button
+              onClick={() => navigate("/")}
+              className={[styles.button, styles.scanQrCode].join(" ")}
+            >
               <div className={styles.scanIconContainer}>
                 <BiScan className={styles.scanIcon} />
               </div>
