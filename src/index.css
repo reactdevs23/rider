@@ -23,18 +23,13 @@ p {
 a {
   text-decoration: none;
 }
-.wrapper {
-  background: rgba(255, 255, 255, 0.03);
-  border: 2px solid rgba(255, 255, 255, 0.1);
-  border-radius: 20px;
-  padding: 15px;
-}
+
 .mainContainer {
-  padding: 15px;
-  padding-left: calc(328px + 15px);
+  padding: 30px;
+  padding-left: calc(328px + 30px);
 }
 .mainWrapper {
-  padding-top: 80px;
+  padding-top: 110px;
   /* max-width: 1185px; */
   margin: 0 auto;
   display: flex;
@@ -44,11 +39,17 @@ a {
 
 @media only screen and (max-width: 1199px) {
   .mainContainer {
-    padding: 15px;
+    padding: 30px;
+  }
+  .mainWrapper {
+    padding-top: 108px;
   }
 }
 @media only screen and (max-width: 520px) {
   .mainContainer {
     padding: 15px 10px;
+  }
+  .mainWrapper {
+    padding-top: 160px;
   }
 }

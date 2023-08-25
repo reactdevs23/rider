@@ -15,18 +15,18 @@ const Sidebar = ({ sidebar, setSidebar }) => {
     },
     {
       navItem: "Inventory",
-      to: "/f",
+      to: "/#",
     },
     {
       navItem: "Game",
-      to: "/fs",
+      to: "/#",
     },
   ];
 
   const socialItems = [
-    { icon: <LiaBlogSolid   />, socialItem: "Blogs", to: "" },
-    { icon: <BiLogoTwitter  />, socialItem: "Follow Us", to: "" },
-    { icon: <BiLogoDiscordAlt  />, socialItem: "Join Our Community", to: "" },
+    { icon: <LiaBlogSolid />, socialItem: "Blogs", to: "" },
+    { icon: <BiLogoTwitter />, socialItem: "Follow Us", to: "" },
+    { icon: <BiLogoDiscordAlt />, socialItem: "Join Our Community", to: "" },
   ];
 
   return (

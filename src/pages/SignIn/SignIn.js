@@ -1,7 +1,7 @@
 import React from "react";
 import { BiScan } from "react-icons/bi";
 import { AiOutlineInfoCircle } from "react-icons/ai";
-import styles from "./Login.module.css";
+import styles from "./SignIn.module.css";
 import { logo, xidarWallet, zuesWallet } from "../../images/image";
 
 const Login = () => {

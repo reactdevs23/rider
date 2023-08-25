@@ -22,7 +22,7 @@ const Header = () => {
     <>
       <Sidebar sidebar={sidebar} setSidebar={setSidebar} />
       <section className={[styles.headerWrapper].join(" ")}>
-        <div className={[styles.header, "mainContainer"].join(" ")}>
+        <div className={[styles.header].join(" ")}>
           <Link className={styles.doc} to="#">
             <PiFileDocBold className={styles.icon} />
             View Docs
