@@ -1,0 +1,103 @@
+.header {
+  display: flex;
+  gap: 20px;
+}
+.heroSection {
+  border-radius: 8px;
+  background: #c96c0f;
+  padding: 28px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.riderImage {
+  width: 58px;
+  height: 58px;
+}
+.title {
+  color: #fff;
+  font-family: Alfa Slab One;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.tagline {
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.highlight {
+  color: #193a8b;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.text {
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 168.75%;
+  max-width: 636px;
+  width: 100%;
+}
+.inputContainer {
+  max-width: 534px;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  background: #a75c11;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.input {
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 168.75%;
+  border: none;
+  outline: none;
+  background: transparent;
+  display: inline-block;
+  padding: 10px 12px;
+}
+.iconContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95px;
+  border-radius: 0px 8px 8px 0px;
+  border-left: 1px solid #fff;
+  background: #193a8b;
+
+  padding: 0px 12px;
+  min-height: 100%;
+  align-self: stretch;
+}
+.icon {
+  font-size: 24px;
+  color: #fff;
+}
+.allRider {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+.rider {
+  border-radius: 8px;
+  background: #193a8b;
+
+  flex-shrink: 0;
+  padding: 15px;
+  min-height: 150%;
+}
+.image {
+  width: 100%;
+}
