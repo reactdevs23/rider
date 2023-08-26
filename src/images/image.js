@@ -8,6 +8,8 @@ import rider3 from "./riders/rider3.png";
 import rider4 from "./riders/rider4.png";
 import zuesWallet from "./zuesWallet.png";
 import xidarWallet from "./xidarWallet.png";
+import swapIcon from "./swapIcon.png";
+import user from "./user.png";
 
 export {
   logo,
@@ -20,4 +22,6 @@ export {
   rider4,
   zuesWallet,
   xidarWallet,
+  swapIcon,
+  user,
 };

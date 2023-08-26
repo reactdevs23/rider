@@ -3,7 +3,7 @@ import { MdSupportAgent } from "react-icons/md";
 import { LiaBlogSolid } from "react-icons/lia";
 import { BiLogoTwitter, BiLogoDiscordAlt } from "react-icons/bi";
 
-import { NavLink, Link } from "react-router-dom";
+import { NavLink,  } from "react-router-dom";
 import { logo } from "../../../images/image";
 import styles from "./Sidebar.module.css";
 
@@ -15,11 +15,11 @@ const Sidebar = ({ sidebar, setSidebar }) => {
     },
     {
       navItem: "Inventory",
-      to: "/#",
+      to: "/inventory",
     },
     {
       navItem: "Game",
-      to: "/#",
+      to: "/game",
     },
   ];
 
