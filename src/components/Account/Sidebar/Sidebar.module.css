@@ -61,6 +61,7 @@
 }
 .rightIcon {
   margin-left: auto;
+  font-size: 20px;
 }
 .name {
   color: #fff;
@@ -129,6 +130,12 @@
 @media only screen and (max-width: 575px) {
   .sidebar {
     width: 250px;
+  }
+  .userContainer {
+    width: 85px;
+    height: 85px;
+    margin: 0 auto;
+    position: relative;
   }
 }
 @media only screen and (max-width: 520px) {

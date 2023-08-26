@@ -47,21 +47,13 @@ const AccountSidebar = ({ sidebar, setSidebar }) => {
         </div>
         <p className={styles.name}>Hector Schulist</p>
       </div>
-      <NavLink
-        to="/support"
-        className={({ isActive }) =>
-          isActive
-            ? [styles.navItem, styles.navActive, styles.support].join(" ")
-            : [styles.navItem, styles.support].join(" ")
-        }
-        onClick={() => setSidebar((prev) => !prev)}
-      >
+      <p className={styles.navItem} onClick={() => setSidebar((prev) => !prev)}>
         <BiSolidUser className={styles.icon} />
-        <span className={styles.navItem}>My Profile</span>
+        <span>My Profile</span>
         <AiFillCaretRight
           className={[styles.icon, styles.rightIcon].join(" ")}
         />
-      </NavLink>
+      </p>
     </section>
   );
 };
